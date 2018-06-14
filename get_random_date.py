@@ -21,5 +21,7 @@ def strTimeProp(start, end, time_format, prop):
 def randomDate(start, end, prop):
     return strTimeProp(start, end, '%m/%d/%Y %I:%M %p', prop)
 
+# Added in Python Branch
+
 if __name__ == "__main__":
     print(randomDate("1/1/2012 9:30 AM", "12/31/2015 4:00 PM", random.random()))
